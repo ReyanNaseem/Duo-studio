@@ -16,7 +16,6 @@ body{
     height: 20px;
     border-radius: 50%;
     position: fixed;
-    /* transform: translate(-50%,-50%); */
     background-color: #EDBFFF;
     z-index: 8;
     mix-blend-mode: difference;
@@ -91,8 +90,6 @@ nav .circle{
     min-height: 100vh;
     position: relative;
     z-index: 9;
-    /* border: 2px solid red; */
-    /* margin-top: 100px; */
     padding-top: 12vw;
 }
 
@@ -117,7 +114,6 @@ nav .circle{
 }
 
 .page2{
-    /* min-height: 80vh; */
     padding: 80px 5vw;
     border-bottom: 2px solid #6c6c6c;
     position: relative;
@@ -133,15 +129,12 @@ nav .circle{
 .page2-container{
     height: 60vh;
     width: 100%;
-    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding: 0 5vw; */
 }
 
 .page2-container .left{
-    /* background-color: blue; */
     width: 31%;
     font-size: 2vw;
     
@@ -152,7 +145,6 @@ nav .circle{
 }
 
 .page2-container .right{
-    /* background-color: blue; */
     width: 20%;
     font-size: 16px;
     color: #111;
@@ -171,7 +163,6 @@ nav .circle{
 }
 
 .page3{
-    /* min-height: 400vh; */
     position: relative;
     z-index: 9;
     padding: 5vw 0vw;
@@ -225,7 +216,6 @@ nav .circle{
     position: relative;
     z-index: 9;
     padding: 100px 5vw;
-    /* border-bottom: 2px solid #fff; */
 }
 
 .page4 .elem{
@@ -233,7 +223,6 @@ nav .circle{
     align-items: center;
     justify-content: center;
     position: relative;
-    /* background-color: yellowgreen; */
 }
 
 .page4 .elem img{
@@ -246,7 +235,6 @@ nav .circle{
 .page4 .elem img:nth-child(1){
     position: absolute;
     left: 5%;
-    /* border-radius: 50%; */
 }
 
 .page4 .elem img:nth-child(3){
@@ -255,11 +243,8 @@ nav .circle{
 }
 
 .page4 .elem .elem-mid{
-    /* width: 300px; */
     height: 80px;
-    /* background-color: crimson; */
     overflow: hidden;
-    /* transition: all ease 0.5s; */
 }
 
 .page4 .elem .elem-mid h1{
@@ -280,7 +265,6 @@ nav .circle{
 .page5{
     min-height: 100vh;
     padding: 5vw;
-    /* padding-bottom: 100px; */
 }
 
 .page5 h1{
